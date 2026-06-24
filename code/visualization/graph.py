@@ -6,7 +6,7 @@ import torch
 import matplotlib.pyplot as plt
 from scipy.fft import fft, fftshift
 
-from shield_free_model import Net1
+from code.model.shield_free_model import Net1
 
 
 # CONFIG

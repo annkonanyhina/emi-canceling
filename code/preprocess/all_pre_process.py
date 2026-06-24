@@ -3,7 +3,7 @@ import torch
 import numpy as np
 from scipy.signal import decimate, butter, sosfilt
 from tqdm import tqdm
-from SpecDecode import DataDecoder
+from code.preprocess.SpecDecode import DataDecoder
 import re
 
 RANGE_CODE_TO_V = {

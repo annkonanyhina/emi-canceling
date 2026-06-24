@@ -4,8 +4,8 @@ from torch.utils.data import random_split, DataLoader
 import torch.nn as nn
 import torch.optim as optim
 from tqdm import tqdm
-from new_dataset import Dataset
-from shield_free_model import Net1
+from code.preprocess.new_dataset import Dataset
+from code.model.shield_free_model import Net1
 import numpy as np
 
 
